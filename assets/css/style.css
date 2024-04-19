@@ -846,3 +846,35 @@ ul {
         display: none !important;
     }
 }
+
+button {
+    cursor: pointer;
+    font-weight: 900;
+    transition: all .2s;
+    padding: 10px 10px;
+    border-radius: 100px;
+    background: #cfcc0d;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+  }
+  
+  button:hover {
+    background: #cfcc0d;
+  }
+  
+  button > svg {
+    width: 50px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
